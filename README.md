@@ -25,6 +25,7 @@ ORDER BY total_revenue DESC;
 ```
 
 ![Revenue by region](analysis_tables/region_revenue.png)
+![Plot 1](plots/revenue_region_plot.png)
 
 ### 2. Number of manual cars sold over time
 *Objective: Identify any trends of the number of manual cars sold between the years.*
@@ -38,6 +39,8 @@ ORDER BY transmission, year DESC;
 ```
 
 ![Manuals sold over time](analysis_tables/manual_over_time.png)
+![Plot 2](plots/manuals_per_year_plot.png)
+
 
 ### 3. Amount of revenue per car model
 *Objective: Explore which car model brings the most revenue to the company.*
@@ -50,6 +53,7 @@ ORDER BY total_revenue DESC;
 ```
 
 ![Revenue per model](analysis_tables/model_revenue.png)
+![Plot 3](plots/revenue_per_model_plot.png)
 
 
 ### 4. Number of cars sold based on its color
@@ -64,6 +68,7 @@ ORDER BY carsSold DESC;
 ```
 
 ![Cars sold based on color](analysis_tables/color_popularity.png)
+![Plot 4](plots/units_per_color_plot.png)
 
 
 ### 5. Average price of the car and units sold based on car's engine size. 
@@ -79,6 +84,7 @@ ORDER BY engineSizeL DESC;
 
 ![Engine size popularity and avg cost 1](analysis_tables/engine_size1.png)
 ![Engine size popularity and avg cost 2](analysis_tables/engine_size2.png)
+![Plot 5](plots/engine_size_plot.png)
 
 
 ### 6. Popularity of cars based on fuel type.
@@ -93,6 +99,8 @@ ORDER BY unitsSold DESC;
 ```
 
 ![Fuel type popularity](analysis_tables/fuel_type.png)
+![Plot 6](plots/fuel_type_plot.png)
+
 
 ### 7. Car price based on its mileage
 *Objective: See if the car's price is proportional to its mileage.*
@@ -112,3 +120,4 @@ ORDER BY mileageCategory;
 ```
 
 ![Price-mileage](analysis_tables/mileage_price.png)
+![Plot 7](plots/mileage_group_plot.png)
