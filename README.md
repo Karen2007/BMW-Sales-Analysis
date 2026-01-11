@@ -53,7 +53,7 @@ ORDER BY total_revenue DESC;
 
 
 ### 4. Number of cars sold based on its color
-*Objective: Try to see if certain car colors are more preffered than others.*
+*Objective: Try to see if certain car colors are more preferred than others.*
 
 **SQL Query:**
 ```sql
