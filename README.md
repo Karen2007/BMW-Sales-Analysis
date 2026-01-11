@@ -9,6 +9,10 @@
 
 ## Key Insights
 
+### First 10 rows of the dataset
+
+![Head of the dataset](analysis_tables/dataset_head.png)
+
 ### 1. Revenue by region
 *Objective: Identify which regions generate the most revenue to target marketing efforts.*
 
@@ -19,6 +23,8 @@ FROM cars
 GROUP BY region
 ORDER BY total_revenue DESC;
 ```
+
+![Revenue by region](analysis_tables/region_revenue.png)
 
 ### 2. Number of manual cars sold over time
 *Objective: Identify any trends of the number of manual cars sold between the years.*
@@ -31,6 +37,8 @@ GROUP BY year, transmission
 ORDER BY transmission, year DESC;
 ```
 
+![Manuals sold over time](analysis_tables/manual_over_time.png)
+
 ### 3. Amount of revenue per car model
 *Objective: Explore which car model brings the most revenue to the company.*
 **SQL Query:**
@@ -40,6 +48,9 @@ FROM cars
 GROUP BY model
 ORDER BY total_revenue DESC;
 ```
+
+![Revenue per model](analysis_tables/model_revenue.png)
+
 
 ### 4. Number of cars sold based on its color
 *Objective: Try to see if certain car colors are more preffered than others.*
@@ -52,6 +63,9 @@ GROUP BY color
 ORDER BY carsSold DESC;
 ```
 
+![Cars sold based on color](analysis_tables/color_popularity.png)
+
+
 ### 5. Average price of the car and units sold based on car's engine size. 
 *Objective: Try to explore the relationship between a car's engine size and its price/popularity.*
 
@@ -63,6 +77,10 @@ GROUP BY engineSizeL
 ORDER BY engineSizeL DESC;
 ```
 
+![Engine size popularity and avg cost 1](analysis_tables/engine_size1.png)
+![Engine size popularity and avg cost 2](analysis_tables/engine_size2.png)
+
+
 ### 6. Popularity of cars based on fuel type.
 *Objective: Compare the sales amounts of different fuel type cars.*
 
@@ -73,6 +91,8 @@ FROM cars
 GROUP BY fuelType
 ORDER BY unitsSold DESC;
 ```
+
+![Fuel type popularity](analysis_tables/fuel_type.png)
 
 ### 7. Car price based on its mileage
 *Objective: See if the car's price is proportional to its mileage.*
@@ -90,3 +110,5 @@ FROM cars
 GROUP BY mileageCategory
 ORDER BY mileageCategory;
 ```
+
+![Price-mileage](analysis_tables/mileage_price.png)
