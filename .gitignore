@@ -1,0 +1,22 @@
+# PyCharm files
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# CSV/data files (optional - remove this if you WANT your CSV on GitHub)
+*.csv
